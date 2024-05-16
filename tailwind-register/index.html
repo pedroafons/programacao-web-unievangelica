@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Preview</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      html, body {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        width: 100%;
+        height: 100%;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="w-[1440px] h-[1024px] relative overflow-hidden bg-[#161616]">
+      <div
+        class="w-[496px] h-[600px] absolute left-[719px] top-[211px] rounded-tr-[15px] rounded-br-[15px] bg-[#1a1a1a] border border-[#cbff4d]"
+      ></div>
+      <input type="text" class="absolute left-[760px] top-[272px] text-[40px] text-left text-[#d9d9d9] input" placeholder="Nome">
+      <img
+        src="rectangle-8.jpeg"
+        class="w-[496px] h-[600px] absolute left-[223px] top-[211px] rounded-tl-[15px] rounded-bl-[15px] object-cover border border-[#cbff4d]"
+      />
+      <p class="absolute left-[760px] top-[332px] text-base text-left text-[#d9d9d9]">Crie uma conta. É grátis.</p>
+      <input type="button" value="Registrar" class="w-[416px] h-[45px] absolute left-[759px] top-[706px] rounded-sm bg-[#cbff4d] border border-[#474747]">
+      <input type="button" value="Registrar" class="absolute left-[938px] top-[722px] text-[13px] font-black text-left text-[#1a1a1a]">
+      <input type="button" class="w-[15px] h-[15px] absolute left-[759px] top-[646px] rounded-[3px] bg-[#1a1a1a] border border-[#474747]">
+      <input type="checkbox" class="absolute left-[759px] top-[646px] text-[13px] text-left text-[#d9d9d9]" id="terms">
+      <label for="terms" class="absolute left-[790px] top-[646px] text-[13px] text-left text-[#d9d9d9]">
+        Eu aceito os <span class="text-[#cbff4d]">Termos de Uso</span> &amp; <span class="text-[#cbff4d]">Políticas de Privacidade</span>
+      </label>
+      <input type="text" class="w-[416px] h-[45px] absolute left-[760px] top-[457px] gap-2.5 px-[18px] py-[13px] rounded-sm bg-[#1a1a1a] border border-[#474747]" placeholder="E-mail">
+      <input type="text" class="w-[193px] h-[45px] absolute left-[760px] top-[390px] gap-2.5 px-[18px] py-[13px] rounded-sm bg-[#1a1a1a] border border-[#474747]" placeholder="Nome">
+      <input type="text" class="w-[193px] h-[45px] absolute left-[983px] top-[390px] gap-2.5 px-[18px] py-[13px] rounded-sm bg-[#1a1a1a] border border-[#474747]" placeholder="Sobrenome">
+      <input type="password" class="w-[416px] h-[45px] absolute left-[760px] top-[524px] gap-2.5 px-[18px] py-[13px] rounded-sm bg-[#1a1a1a] border border-[#474747]" placeholder="Senha">
+      <input type="password" class="w-[416px] h-[45px] absolute left-[760px] top-[591px] gap-2.5 px-[18px] py-[13px] rounded-sm bg-[#1a1a1a] border border-[#474747]" placeholder="Confirmar Senha">
+    </div>
+    
+    
+    
+  </body>
+</html>
